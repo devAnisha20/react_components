@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export class DynamicData extends Component {
   render() {
-    const student=["Anisha",21,"Pathankot"]
+    const student=["Anisha",21,"Pathankot","Punjab",145001]
     return (
       <div>
         <table border={2}>
@@ -11,6 +11,8 @@ export class DynamicData extends Component {
                     <th>Name</th>
                     <th>Age</th>
                     <th>City</th>
+                    <th>State</th>
+                    <th>Pincode</th>
                 </tr>
             </thead>
            <tbody>
