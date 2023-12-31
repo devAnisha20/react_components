@@ -7,7 +7,7 @@ function FirstPortal() {
     <div>
         <h1>This is the Portal Page</h1>
     </div>,
-    document.getElementById('other-root')
+    document.getElementById('footer')
     )
   )
 }
