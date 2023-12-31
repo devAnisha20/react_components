@@ -5,6 +5,8 @@ import JavascriptHtml from './components/JavascriptHtml'
 import Inlinecss from './components/Inlinecss'
 import Internalcss from './components/Internalcss'
 import ExternalCss from './components/ExternalCss'
+import FirstPortal from './components/portal/FirstPortal'
+import SecondPortal from './components/portal/SecondPortal'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Inlinecss/>
       <Internalcss/>
       <ExternalCss/>
+      <FirstPortal/>
+      <SecondPortal/>
     </div>
   )
 }
