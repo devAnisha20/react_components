@@ -1,5 +1,7 @@
 import React from 'react'
-import DynamicData from './components/DynamicData'
+// import DynamicDataRender from './components/dynamicdata/DynamicDataRender'
+// import DynamicData from './components/dynamicdata/DynamicData'
+import StateManagement from './components/states/StateManagement'
 // import NewDelhi from './components/props/propDrilling/NewDelhi'
 // import FuncBased from './components/FuncBased'
 // import ClassBasedComp from './components/ClassBasedComp'
@@ -13,6 +15,7 @@ import DynamicData from './components/DynamicData'
 function App() {
   return (
     <div>
+      {/* <DynamicDataRender/> */}
       {/* <FuncBased/>
       <ClassBasedComp/>
       <JavascriptHtml/>
@@ -22,7 +25,8 @@ function App() {
       <FirstPortal/> */}
       {/* <SecondPortal/> */}
       {/* <NewDelhi/> */}
-      <DynamicData/>
+      {/* <DynamicData/> */}
+      <StateManagement/>
     </div>
   )
 }
